@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Replace this with your actual NetSuite Scriptlet URL
-const NETSUITE_URL = 'https://8869626-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=3554&deploy=1&compid=8869626_SB1&ns-at=YOUR_TOKEN';
+const NETSUITE_URL = 'https://8869626-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=3554&deploy=1&compid=8869626_SB1&ns-at=AAEJ7tMQRW8GhQpSh88qRov5IWOGJFAcclF9k2jwFWXfnMw7RIM';
 
 app.post('/approve', async (req, res) => {
   try {
